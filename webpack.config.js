@@ -29,7 +29,7 @@ module.exports = {
             }
         ]
     }, plugins: [
-        new HtmlWebpackPlugin({ title: "bs", template: "./src/index.html" }),
+        new HtmlWebpackPlugin({ title: "webpack bootstrap css demo", template: "./src/index.html" }),
         new MiniCssExtractPlugin({ filename: "bootstrap.css" }),
     ]
 };
