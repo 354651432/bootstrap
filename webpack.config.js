@@ -31,5 +31,9 @@ module.exports = {
     }, plugins: [
         new HtmlWebpackPlugin({ title: "webpack bootstrap css demo", template: "./src/index.html" }),
         new MiniCssExtractPlugin({ filename: "bootstrap.css" }),
-    ]
+    ],
+    devServer: {
+        port: 8080,
+        open: true
+    }
 };
